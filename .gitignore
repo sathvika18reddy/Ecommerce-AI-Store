@@ -1,0 +1,12 @@
+# Ignore the root environment file
+.env
+.env*.local
+
+# Ignore build and distribution folders (add trailing slashes)
+dist/
+
+# Ignore heavy dependencies in all folders
+node_modules/
+
+# Ignore system files
+.DS_Store
